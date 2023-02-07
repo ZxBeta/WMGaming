@@ -1,0 +1,71 @@
+.state-of-art-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.state-of-art-text {
+  font-size: 145px;
+  transform: rotate(-90deg);
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.state-of-art-text:hover {
+  color: var(--dl-color-colors-neongreen);
+}
+.state-of-art-container1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.state-of-art-text1 {
+  font-size: 115px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.state-of-art-text1:hover {
+  color: var(--dl-color-colors-neongreen);
+}
+.state-of-art-container2 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.state-of-art-text2 {
+  font-size: 115px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.state-of-art-text2:hover {
+  color: var(--dl-color-colors-neongreen);
+}
+.state-of-art-text3 {
+  font-size: 115px;
+  font-style: normal;
+  font-weight: 700;
+}
+.state-of-art-text4 {
+  font-size: 115px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.state-of-art-text4:hover {
+  color: var(--dl-color-colors-neongreen);
+}
+
+
+
+
+

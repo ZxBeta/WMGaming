@@ -1,0 +1,701 @@
+.our-apps-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/109/664/851/black-texture-wallpaper-preview.jpg');
+  background-attachment: fixed;
+}
+.our-apps-container01 {
+  gap: var(--dl-space-space-fiveunits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.81);
+}
+.our-apps-header {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-left {
+  width: 100%;
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-heading {
+  color: transparent;
+  width: 100%;
+  font-size: 52px;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  text-transform: none;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+}
+.our-apps-container02 {
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+.our-apps-app-circle {
+  flex: 0 0 auto;
+  width: 400px;
+  cursor: pointer;
+  height: 400px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.pexels.com/photos/1342650/pexels-photo-1342650.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-attachment: fixed;
+}
+.our-apps-app-circle:hover {
+  width: 250px;
+  height: 250px;
+}
+.our-apps-gradient {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(252, 0, 255, 0.57) 0.00%,rgba(0, 219, 222, 0.6) 100.00%);
+}
+.our-apps-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.our-apps-app-circle1 {
+  flex: 0 0 auto;
+  width: 400px;
+  cursor: pointer;
+  height: 400px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.pexels.com/photos/1342650/pexels-photo-1342650.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-attachment: fixed;
+}
+.our-apps-app-circle1:hover {
+  width: 250px;
+  height: 250px;
+}
+.our-apps-gradient1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(219, 19, 20, 0.62) 0.00%,rgba(210, 16, 130, 0.63) 100.00%);
+}
+.our-apps-image01 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.our-apps-app-circle2 {
+  flex: 0 0 auto;
+  width: 400px;
+  cursor: pointer;
+  height: 400px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.pexels.com/photos/1342650/pexels-photo-1342650.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-attachment: fixed;
+}
+.our-apps-app-circle2:hover {
+  width: 250px;
+  height: 250px;
+}
+.our-apps-gradient2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(0, 255, 17, 0.55) 0.00%,rgba(243, 255, 0, 0.6) 100.00%);
+}
+.our-apps-image02 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.our-apps-pop-up-ludo {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1116px;
+  bottom: 0;
+  height: 627px;
+  margin: auto auto;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  z-index: 200;
+  position: fixed;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.our-apps-close-button {
+  top: 5px;
+  flex: 0 0 auto;
+  right: 5px;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+}
+.our-apps-icon {
+  fill: #ffffff;
+  width: 80%;
+  height: 80%;
+}
+.our-apps-container03 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: center;
+}
+.our-apps-container04 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-text {
+  color: transparent;
+  width: 100%;
+  text-align: left;
+  background-size: cover;
+  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+}
+.our-apps-text1 {
+  color: #dcd5d5;
+  width: 100%;
+}
+.our-apps-download-now {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.our-apps-text2 {
+  font-weight: 700;
+}
+.our-apps-container05 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.our-apps-link {
+  display: contents;
+}
+.our-apps-image03 {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  text-decoration: none;
+}
+.our-apps-image04 {
+  width: auto;
+  height: auto;
+  display: none;
+  object-fit: cover;
+}
+.our-apps-container06 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-background {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-gradient3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(252, 0, 255, 0.57) 0.00%,rgba(0, 219, 222, 0.6) 100.00%);
+}
+.our-apps-image05 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.our-apps-pop-up-ludo1 {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1116px;
+  bottom: 0;
+  height: 627px;
+  margin: auto auto;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  z-index: 200;
+  position: fixed;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.our-apps-close-button1 {
+  top: 11px;
+  flex: 0 0 auto;
+  right: 11px;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+}
+.our-apps-icon2 {
+  fill: #ffffff;
+  width: 80%;
+  height: 80%;
+}
+.our-apps-container07 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: center;
+}
+.our-apps-container08 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-text3 {
+  color: transparent;
+  width: 100%;
+  text-align: left;
+  background-size: cover;
+  background-image: url("https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif");
+}
+.our-apps-text4 {
+  color: rgb(220, 213, 213);
+  width: 100%;
+}
+.our-apps-download-now1 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.our-apps-text5 {
+  font-weight: 700;
+}
+.our-apps-container09 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.our-apps-link1 {
+  display: contents;
+}
+.our-apps-image06 {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  text-decoration: none;
+}
+.our-apps-image07 {
+  width: auto;
+  height: auto;
+  display: none;
+  object-fit: cover;
+}
+.our-apps-container10 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-background1 {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-gradient4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(219, 19, 20, 0.62) 0.00%,rgba(210, 16, 130, 0.63) 100.00%);
+}
+.our-apps-image08 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.our-apps-pop-up-ludo2 {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1116px;
+  bottom: 0;
+  height: 627px;
+  margin: auto auto;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  z-index: 200;
+  position: fixed;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.our-apps-close-button2 {
+  top: 5px;
+  flex: 0 0 auto;
+  right: 5px;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+}
+.our-apps-icon4 {
+  fill: #ffffff;
+  width: 80%;
+  height: 80%;
+}
+.our-apps-container11 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: center;
+}
+.our-apps-container12 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-text6 {
+  color: transparent;
+  width: 100%;
+  text-align: left;
+  background-size: cover;
+  background-image: url("https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif");
+}
+.our-apps-text7 {
+  color: rgb(220, 213, 213);
+  width: 100%;
+}
+.our-apps-download-now2 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.our-apps-text8 {
+  font-weight: 700;
+}
+.our-apps-container13 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.our-apps-link2 {
+  display: contents;
+}
+.our-apps-image09 {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  text-decoration: none;
+}
+.our-apps-container14 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-background2 {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+}
+.our-apps-gradient5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgba(0, 255, 17, 0.55) 0.00%,rgba(243, 255, 0, 0.6) 100.00%);
+}
+.our-apps-image10 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+
+@media(max-width: 1400px) {
+  .our-apps-container {
+    height: 100vh;
+  }
+  .our-apps-app-circle {
+    width: 300px;
+    height: 300px;
+  }
+  .our-apps-app-circle1 {
+    width: 300px;
+    height: 300px;
+  }
+  .our-apps-app-circle2 {
+    width: 300px;
+    height: 300px;
+  }
+  .our-apps-pop-up-ludo {
+    width: 963px;
+  }
+  .our-apps-pop-up-ludo1 {
+    width: 963px;
+  }
+  .our-apps-pop-up-ludo2 {
+    width: 963px;
+  }
+}
+@media(max-width: 991px) {
+  .our-apps-app-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .our-apps-app-circle1 {
+    width: 200px;
+    height: 200px;
+  }
+  .our-apps-app-circle2 {
+    width: 200px;
+    height: 200px;
+  }
+  .our-apps-pop-up-ludo {
+    width: 100%;
+  }
+  .our-apps-pop-up-ludo1 {
+    width: 100%;
+  }
+  .our-apps-pop-up-ludo2 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .our-apps-container {
+    height: auto;
+  }
+  .our-apps-container02 {
+    grid-template-columns: auto;
+  }
+  .our-apps-app-circle {
+    width: 400px;
+    height: 400px;
+  }
+  .our-apps-app-circle1 {
+    width: 400px;
+    height: 400px;
+  }
+  .our-apps-app-circle2 {
+    width: 400px;
+    height: 400px;
+  }
+  .our-apps-pop-up-ludo {
+    height: auto;
+  }
+  .our-apps-container04 {
+    width: 100%;
+  }
+  .our-apps-container06 {
+    display: none;
+  }
+  .our-apps-pop-up-ludo1 {
+    height: auto;
+  }
+  .our-apps-container08 {
+    width: 100%;
+  }
+  .our-apps-container10 {
+    display: none;
+  }
+  .our-apps-pop-up-ludo2 {
+    height: auto;
+  }
+  .our-apps-container12 {
+    width: 100%;
+  }
+  .our-apps-container14 {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .our-apps-app-circle {
+    width: 250px;
+    height: 250px;
+  }
+  .our-apps-app-circle1 {
+    width: 250px;
+    height: 250px;
+  }
+  .our-apps-app-circle2 {
+    width: 250px;
+    height: 250px;
+  }
+  .our-apps-pop-up-ludo {
+    height: 100vh;
+  }
+  .our-apps-container05 {
+    flex-direction: column;
+  }
+  .our-apps-pop-up-ludo1 {
+    height: 100vh;
+  }
+  .our-apps-container09 {
+    flex-direction: column;
+  }
+  .our-apps-pop-up-ludo2 {
+    height: 100vh;
+  }
+  .our-apps-container13 {
+    flex-direction: column;
+  }
+}
