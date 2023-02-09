@@ -96,7 +96,8 @@ const GameArt = (props) => {
                 <div className="game-art-container11">
                   <img
                     alt="image"
-                    src="https://media3.giphy.com/media/l3q2VLd4LUy5UJmnu/200w.webp?cid=ecf05e47k8jb27j8yln640gjacsbzit5a4ynip7l4g4pjb9b&amp;rid=200w.webp&amp;ct=g"
+                    // src="https://media3.giphy.com/media/l3q2VLd4LUy5UJmnu/200w.webp?cid=ecf05e47k8jb27j8yln640gjacsbzit5a4ynip7l4g4pjb9b&amp;rid=200w.webp&amp;ct=g"
+                    src="https://iili.io/HEnBGvs.gif"
                     loading="eager"
                     className="game-art-image"
                   />
@@ -242,11 +243,13 @@ const GameArt = (props) => {
             </div>
           </section>
           <section className="game-art-gallery">
+            {/* image here */}
             <div className="game-art-container29">
+            {/* image here */}
               <div className="game-art-container30">
-                <h1 className="game-art-text54">Project Title</h1>
+                <h1 className="game-art-text54">ZING</h1>
                 <span className="game-art-text55">
-                  <span>Lorem ipsum dolor sit amet</span>
+                  <span>Multiple casino games in one game</span>
                 </span>
               </div>
             </div>
