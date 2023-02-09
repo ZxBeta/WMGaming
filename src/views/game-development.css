@@ -1143,6 +1143,12 @@
   }
 }
 @media(max-width: 479px) {
+  .game-development-hero{
+    background-attachment: initial;
+  }
+  .game-development-container17{
+    background-attachment: initial;
+  }
   .game-development-text008 {
     font-size: 45px;
   }

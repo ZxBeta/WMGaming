@@ -964,6 +964,9 @@
   }
 }
 @media(max-width: 479px) {
+  .outstaffing-container03{
+    background-attachment: initial;
+  }
   .outstaffing-container08 {
     padding: var(--dl-space-space-halfunit);
   }

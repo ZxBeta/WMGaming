@@ -7,7 +7,7 @@ import OurApps from "../components/our-apps";
 import ClientFeedbackOld from "../components/client-feedback-old";
 import CompanyCard from "../components/company-card";
 import Footer from "../components/footer";
-// import Slider from "../components/Slider/Slider";
+import Slider from "../components/Slider/Slider";
 
 import "./home.css";
 
@@ -34,7 +34,7 @@ const Home = (props) => {
       <section className="home-slider FadeInUp">
         <div className="home-container01">
           {/* slider */}
-          {/* <div className="slider_container"><Slider/></div> */}
+          <div className="slider_container"><Slider/></div>
           {/* slider */}
         </div>
       </section>
