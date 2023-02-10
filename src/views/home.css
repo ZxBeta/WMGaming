@@ -1664,6 +1664,12 @@
     padding: 0px;
   }
 
+  .home-section{
+    background-attachment: initial;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .home-container01 {
     border-width: 0px;
   }

@@ -15,7 +15,7 @@
 }
 .header-container1 {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   padding: var(--dl-space-space-halfunit);
   max-width: 1600px;
@@ -427,6 +427,14 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 1076px){
+  .header-container2{
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
 @media(max-width: 991px) {
   .header-image {
     height: 70px;
@@ -455,7 +463,7 @@
   }
   .header-menu-icon {
     width: auto;
-    height: 100%;
+    height: 70%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -554,4 +562,6 @@
     font-size: 16px;
   }
 }
+
+
 
