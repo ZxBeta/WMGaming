@@ -6,6 +6,8 @@ import PropTypes from 'prop-types'
 import './footer.css'
 
 const Footer = (props) => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <footer className={`footer-footer ${props.rootClassName} `}>
       <div className="footer-content">
@@ -99,7 +101,8 @@ const Footer = (props) => {
             </header>
           </div>
           <section className="footer-copyright">
-            <span className="footer-text14">{props.text1}</span>
+            {/* <span className="footer-text14">{props.text1}</span> */}
+            <span className="footer-text14">© {year} WMGamingstudioz. All Rights Reserved.</span>
           </section>
         </main>
         <main className="footer-subscribe">
@@ -123,7 +126,8 @@ const Footer = (props) => {
           <h1 className="footer-notice">{props.Notice}</h1>
         </main>
         <section className="footer-copyright1">
-          <span className="footer-text19">{props.text}</span>
+          {/* <span className="footer-text19">{props.text}</span> */}
+          <span className="footer-text19">© {year} WMGamingstudioz. All Rights Reserved.</span>
         </section>
       </div>
     </footer>

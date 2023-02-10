@@ -30,7 +30,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700893984.jpg');
+  background-image: url('https://iili.io/HEo0dtp.png');
   background-position: center;
   background-attachment: fixed;
 }
@@ -350,8 +350,8 @@
 }
 .game-development-container20 {
   flex: 0 0 auto;
-  width: 150;
-  height: 38;
+  width: 150px;
+  height: 38px;
   display: flex;
   align-items: center;
   border-color: var(--dl-color-colors-pink);
@@ -1143,6 +1143,12 @@
   }
 }
 @media(max-width: 479px) {
+  .game-development-hero{
+    background-attachment: initial;
+  }
+  .game-development-container17{
+    background-attachment: initial;
+  }
   .game-development-text008 {
     font-size: 45px;
   }

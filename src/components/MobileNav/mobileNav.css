@@ -1,0 +1,63 @@
+.mobile_navigation_menu {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    /* padding-top: 40px; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 101;
+    /* background-color: #000; */
+    /* background-image: url('https://media3.giphy.com/media/3o7qDPxorBbvpB1Pby/200.webp?cid=ecf05e47w2ta6yfzpz3n94tvzs0unclq0rtc9ff3rcmohtm6&rid=200.webp&ct=g'); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-transform: uppercase; */
+}
+
+.close_svg_wrapper {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    /* border: 2px solid white; */
+}
+
+.actual_nav_mob {
+    width: 100%;
+    height: 90%;
+    padding: 50px;
+    border: 2px solid white;
+    border-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif)       1 stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.mober-naver{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 5vw;
+    font-weight: 700;
+}
+@media (max-width: 767px) {
+    .mober-naver{
+        font-size: 6vw;
+    }
+}
+@media (max-width: 479px) {
+    .mober-naver{
+        font-size: 7vw;
+    }
+}
+@media (max-width: 375px) {
+    .mober-naver{
+        font-size: 7vw;
+    }
+}

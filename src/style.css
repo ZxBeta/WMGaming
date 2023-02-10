@@ -104,6 +104,22 @@
   -webkit-animation-duration: 1s;
   -webkit-animation-fill-mode: both;
 }
+.fadeInRight{
+  animation-name: fadeInRight;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInRight;
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+}
+.fadeInLeft{
+  animation-name: fadeInLeft;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+}
 .social {
   width: 24px;
   cursor: pointer;
@@ -146,6 +162,7 @@
 .colortexter {
   color: transparent;
   background-attachment: fixed;
+  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
   -webkit-background-clip: text;
 }
 .section-head {
