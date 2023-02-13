@@ -1,12 +1,35 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
 import './header.css'
 import './MobileNav/mobileNav.css'
+import { Result } from 'postcss'
 
 const Header = (props) => {
+
+  const form = useRef();
+
+  const sendEmail = (e) =>{
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8dxk3gi","template_q58xc0s",form.current,"mYc8drucW9KkaNWgY"
+      )
+      .then(
+        (result) =>{
+          console.log(result.text);
+        },
+        (error) =>{
+          console.log(error.text);
+        }
+      )
+      e.target.reset()
+  }
+
   const [show_contact_menu, setShow_contact_menu] = useState(false)
   const [show_mobileNav, setShow_mobileNav] = useState(false)
   const [active, setActive] = useState(false)
@@ -83,15 +106,25 @@ const Header = (props) => {
         {show_contact_menu && (
           <div className="header-container2 FadeInUp">
             <svg
+              fill='white'
               viewBox="0 0 1024 1024"
               onClick={() => setShow_contact_menu(false)}
-              className="header-close-icon"
+              className="header-close-icon cursor_pointer"
             >
               <path
                 d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                 className=""
               ></path>
             </svg>
+            <div className='form-div'>
+              <form ref={form} onSubmit={sendEmail} className='form-control'>
+                <input className='former' id='name-form' type="text" placeholder='Your Name' name='user_name' required />
+                <input className='former' id='email-form' type="text" placeholder='Your email' name='user_email' required />
+                <input className='former' id='subject-form' type="text" placeholder='subject' name='subject' required />
+                <textarea className='former' id='textarea-form' placeholder='message' cols="30" rows="5" name='message'></textarea>
+                <button className='form-btn' type='submit'>Send</button>
+              </form>
+            </div>
           </div>
         )}
       </div>

@@ -222,6 +222,7 @@ const AboutUs = (props) => {
                   src="/playground_assets/aboutus_image2-1500w.png"
                   loading="eager"
                   className="about-us-image4"
+                  id='object1'
                 />
               </div>
             </div>
