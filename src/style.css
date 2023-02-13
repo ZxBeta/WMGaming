@@ -104,6 +104,9 @@
   -webkit-animation-duration: 1s;
   -webkit-animation-fill-mode: both;
 }
+.on-hover-pink{
+  color: #da0f75ff;
+}
 .fadeInRight{
   animation-name: fadeInRight;
   animation-duration: 0.3s;
