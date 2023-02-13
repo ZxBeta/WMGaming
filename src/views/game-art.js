@@ -247,49 +247,49 @@ const GameArt = (props) => {
             <div className="game-art-container29">
             {/* image here */}
               <div className="game-art-container30">
-                <h1 className="game-art-text54">ZING</h1>
+                {/* <h1 className="game-art-text54">ZING</h1> */}
                 <span className="game-art-text55">
-                  <span>Multiple casino games in one game</span>
+                  {/* <span>Multiple casino games in one game</span> */}
                 </span>
               </div>
             </div>
             <div className="game-art-container31">
               <div className="game-art-container32">
-                <h1 className="game-art-text57">Project Title</h1>
+                {/* <h1 className="game-art-text57">Project Title</h1> */}
                 <span className="game-art-text58">
-                  <span>Lorem ipsum dolor sit amet</span>
+                  {/* <span>Lorem ipsum dolor sit amet</span> */}
                 </span>
               </div>
             </div>
             <div className="game-art-container33">
               <div className="game-art-container34">
-                <h1 className="game-art-text60">Project Title</h1>
+                {/* <h1 className="game-art-text60">Project Title</h1> */}
                 <span className="game-art-text61">
-                  <span>Lorem ipsum dolor sit amet</span>
+                  {/* <span>Lorem ipsum dolor sit amet</span> */}
                 </span>
               </div>
             </div>
             <div className="game-art-container35">
               <div className="game-art-container36">
-                <h1 className="game-art-text63">Project Title</h1>
+                {/* <h1 className="game-art-text63">Project Title</h1> */}
                 <span className="game-art-text64">
-                  <span>Lorem ipsum dolor sit amet</span>
+                  {/* <span>Lorem ipsum dolor sit amet</span> */}
                 </span>
               </div>
             </div>
             <div className="game-art-container37">
               <div className="game-art-container38">
-                <h1 className="game-art-text66">Project Title</h1>
+                {/* <h1 className="game-art-text66">Project Title</h1> */}
                 <span className="game-art-text67">
-                  <span>Lorem ipsum dolor sit amet</span>
+                  {/* <span>Lorem ipsum dolor sit amet</span> */}
                 </span>
               </div>
             </div>
             <div className="game-art-container39">
               <div className="game-art-container40">
-                <h1 className="game-art-text69">Project Title</h1>
+                {/* <h1 className="game-art-text69">Project Title</h1> */}
                 <span className="game-art-text70">
-                  <span>Lorem ipsum dolor sit amet</span>
+                  {/* <span>Lorem ipsum dolor sit amet</span> */}
                 </span>
               </div>
             </div>
