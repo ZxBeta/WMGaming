@@ -79,7 +79,7 @@ const GameArt = (props) => {
             </div>
             <div className="game-art-container08">
               <div className="game-art-container09">
-                <div className="game-art-container10">
+                {/* <div className="game-art-container10">
                   <svg viewBox="0 0 1024 1024" className="game-art-icon">
                     <path d="M598 726v-428h-172v86h86v342h86zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596z"></path>
                   </svg>
@@ -91,6 +91,20 @@ const GameArt = (props) => {
                   </svg>
                   <svg viewBox="0 0 1024 1024" className="game-art-icon06">
                     <path d="M640 726v-428h-86v172h-84v-172h-86v256h170v172h86zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596z"></path>
+                  </svg>
+                </div> */}
+                <div className="game-art-container19">
+                  <svg viewBox="0 0 1024 1024" className="game-art-icon08">
+                    <path d="M426 726v-428l214 214z"></path>
+                  </svg>
+                  <svg viewBox="0 0 1024 1024" className="game-art-icon10">
+                    <path d="M298 426h428l-214 214z"></path>
+                  </svg>
+                  <svg viewBox="0 0 1024 1024" className="game-art-icon12">
+                    <path d="M298 598l214-214 214 214h-428z"></path>
+                  </svg>
+                  <svg viewBox="0 0 1024 1024" className="game-art-icon14">
+                    <path d="M598 298v428l-214-214z"></path>
                   </svg>
                 </div>
                 <div className="game-art-container11">
@@ -247,49 +261,49 @@ const GameArt = (props) => {
             <div className="game-art-container29">
             {/* image here */}
               <div className="game-art-container30">
-                {/* <h1 className="game-art-text54">ZING</h1> */}
+                <h1 className="game-art-text54"><br/></h1>
                 <span className="game-art-text55">
-                  {/* <span>Multiple casino games in one game</span> */}
+                  <span><br/><br/><br/><br/><br/><br/></span>
                 </span>
               </div>
             </div>
             <div className="game-art-container31">
               <div className="game-art-container32">
-                {/* <h1 className="game-art-text57">Project Title</h1> */}
+                <h1 className="game-art-text57"><br/></h1>
                 <span className="game-art-text58">
-                  {/* <span>Lorem ipsum dolor sit amet</span> */}
+                  <span><br/><br/><br/><br/><br/><br/></span>
                 </span>
               </div>
             </div>
             <div className="game-art-container33">
               <div className="game-art-container34">
-                {/* <h1 className="game-art-text60">Project Title</h1> */}
+                <h1 className="game-art-text60"><br/></h1>
                 <span className="game-art-text61">
-                  {/* <span>Lorem ipsum dolor sit amet</span> */}
+                  <span><br/><br/><br/><br/><br/><br/></span>
                 </span>
               </div>
             </div>
             <div className="game-art-container35">
               <div className="game-art-container36">
-                {/* <h1 className="game-art-text63">Project Title</h1> */}
+                <h1 className="game-art-text63"><br/></h1>
                 <span className="game-art-text64">
-                  {/* <span>Lorem ipsum dolor sit amet</span> */}
+                  <span><br/><br/><br/><br/><br/><br/></span>
                 </span>
               </div>
             </div>
             <div className="game-art-container37">
               <div className="game-art-container38">
-                {/* <h1 className="game-art-text66">Project Title</h1> */}
+                <h1 className="game-art-text66"><br/></h1>
                 <span className="game-art-text67">
-                  {/* <span>Lorem ipsum dolor sit amet</span> */}
+                  <span><br/><br/><br/><br/><br/><br/></span>
                 </span>
               </div>
             </div>
             <div className="game-art-container39">
               <div className="game-art-container40">
-                {/* <h1 className="game-art-text69">Project Title</h1> */}
+                <h1 className="game-art-text69"><br/></h1>
                 <span className="game-art-text70">
-                  {/* <span>Lorem ipsum dolor sit amet</span> */}
+                  <span><br/><br/><br/><br/><br/><br/></span>
                 </span>
               </div>
             </div>
