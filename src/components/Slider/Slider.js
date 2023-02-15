@@ -4,17 +4,17 @@ const Slider = () => {
   const slides = [
     {
       url:
-        "https://iili.io/HERQ0W7.png",
+        "https://iili.io/HEpqnIt.jpg",
       title: "1"
     },
     {
       url:
-        "https://iili.io/HERQ1s9.png",
+        "https://iili.io/HEpqohX.jpg",
       title: "2"
     },
     {
       url:
-        "https://iili.io/HERQlxS.png",
+        "https://iili.io/HEpqBpI.jpg",
       title: "3"
     }
   ];

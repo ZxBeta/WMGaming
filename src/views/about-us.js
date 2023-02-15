@@ -82,7 +82,7 @@ const AboutUs = (props) => {
                 <div className="about-us-container13">
                   <img
                     alt="image"
-                    src="https://images.unsplash.com/photo-1675637269681-3d8af69337b1?ixid=Mnw5MTMyMXwwfDF8YWxsfDEzfHx8fHx8Mnx8MTY3NTY4NTQxMA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    src="https://iili.io/HEpIRVI.jpg"
                     className="about-us-image1"
                   />
                 </div>
@@ -141,7 +141,7 @@ const AboutUs = (props) => {
                 <div className="about-us-container19">
                   <img
                     alt="image"
-                    src="https://images.unsplash.com/photo-1675637269681-3d8af69337b1?ixid=Mnw5MTMyMXwwfDF8YWxsfDEzfHx8fHx8Mnx8MTY3NTY4NTQxMA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    src="https://iili.io/HEpIRVI.jpg"
                     className="about-us-image2"
                   />
                 </div>
@@ -188,7 +188,7 @@ const AboutUs = (props) => {
                 <div className="about-us-container24">
                   <img
                     alt="image"
-                    src="/playground_assets/aboutus_image1-1500w.png"
+                    src="https://iili.io/HEpzW3g.jpg"
                     className="about-us-image3"
                   />
                 </div>
