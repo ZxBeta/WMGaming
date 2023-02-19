@@ -51,7 +51,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url('https://iili.io/HcokakJ.gif');
+  background-image: url("/playground_assets/home/camp.gif");
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -79,7 +79,7 @@
   font-family: Poppins;
   font-weight: 700;
   background-size: cover;
-  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+  background-image: url('/playground_assets/rainbow-swirls.gif');
 }
 
 .home-features {
@@ -180,7 +180,7 @@
   border-width: 2px;
   flex-direction: column;
   background-size: contain;
-  background-image: url('https://www.kreedon.com/wp-content/uploads/2022/10/high-gaming-pc.jpg');
+  background-image: url('/playground_assets/home/high-gaming-pc.webp');
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
@@ -196,7 +196,7 @@
   flex-direction: column;
   background-size: contain;
   justify-content: center;
-  background-image: url('https://iili.io/H78Yaob.png');
+  background-image: url('playground_assets/gaming_bg.png');
   background-position: center;
   background-attachment: fixed;
 }
@@ -228,7 +228,7 @@
 .home-text06 {
   font-style: normal;
   background-size: cover;
-  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+  background-image: url('/playground_assets/rainbow-swirls.gif');
 }
 
 .home-text07 {
@@ -260,7 +260,7 @@
   border-width: 2px;
   flex-direction: column;
   background-size: contain;
-  background-image: url('https://images.squarespace-cdn.com/content/v1/5cd3156c0cf57d4de4493b7a/1582576518450-MMD2PUVXABLJ6CNLTQ6G/TFT_GDU_thumbnail2.jpg?format=1000w');
+  background-image: url('/playground_assets/home/TFT_GDU_thumbnail2.jpg');
   background-repeat: no-repeat;
   background-position: left;
   background-attachment: fixed;
@@ -330,7 +330,7 @@
   border-width: 2px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://iili.io/HEpn3rb.jpg');
+  background-image: url('/playground_assets/home/VR-pic.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -409,7 +409,7 @@
   border-width: 2px;
   flex-direction: column;
   background-size: contain;
-  background-image: url('https://cdn.pixabay.com/photo/2015/08/13/04/28/disney-886573_960_720.jpg');
+  background-image: url('/playground_assets/home/disney-886573_960_720.jpg');
   background-repeat: no-repeat;
   background-position: left;
   background-attachment: fixed;
@@ -479,7 +479,7 @@
   border-width: 2px;
   flex-direction: column;
   background-size: contain;
-  background-image: url('https://images.moneycontrol.com/static-mcnews/2020/07/online-gaming-1-770x433.jpg?impolicy=website&width=770&height=431');
+  background-image: url('/playground_assets/home/online-gaming-1-770x433.webp');
   background-position: center;
   background-attachment: fixed;
 }
@@ -546,7 +546,7 @@
   flex-direction: row;
   background-size: contain;
   justify-content: center;
-  background-image: url('https://iili.io/H78Yaob.png');
+  background-image: url('/playground_assets/gaming_bg.png');
   background-position: center;
   background-attachment: fixed;
 }
@@ -578,7 +578,7 @@
 }
 
 .home-card:hover {
-  border-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif) 1 stretch;
+  border-image: url(/playground_assets/rainbow-swirls.gif) 1 stretch;
   background-color: rgba(0, 0, 0, 0.65);
 }
 
@@ -600,7 +600,7 @@
   font-family: Poppins;
   font-weight: 600;
   background-size: cover;
-  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+  background-image: url('/playground_assets/rainbow-swirls.gif');
 }
 
 .home-container12 {
@@ -623,7 +623,7 @@
   font-weight: 500;
   text-transform: uppercase;
   background-size: cover;
-  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+  background-image: url('/playground_assets/rainbow-swirls.gif');
 }
 
 .home-card1 {
@@ -639,7 +639,7 @@
 }
 
 .home-card1:hover {
-  border-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif) 1 stretch;
+  border-image: url(/playground_assets/rainbow-swirls.gif) 1 stretch;
   background-color: rgba(0, 0, 0, 0.65);
 }
 
@@ -661,7 +661,7 @@
   font-family: Poppins;
   font-weight: 600;
   background-size: cover;
-  background-image: url("https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif");
+  background-image: url("/playground_assets/rainbow-swirls.gif");
 }
 
 .home-container14 {
@@ -684,7 +684,7 @@
   font-weight: 500;
   text-transform: uppercase;
   background-size: cover;
-  background-image: url("https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif");
+  background-image: url("/playground_assets/rainbow-swirls.gif");
 }
 
 .home-card2 {
@@ -700,7 +700,7 @@
 }
 
 .home-card2:hover {
-  border-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif) 1 stretch;
+  border-image: url(/playground_assets/rainbow-swirls.gif) 1 stretch;
   background-color: rgba(0, 0, 0, 0.65);
 }
 
@@ -722,7 +722,7 @@
   font-family: Poppins;
   font-weight: 600;
   background-size: cover;
-  background-image: url("https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif");
+  background-image: url("/playground_assets/rainbow-swirls.gif");
 }
 
 .home-container16 {
@@ -745,7 +745,7 @@
   font-weight: 500;
   text-transform: uppercase;
   background-size: cover;
-  background-image: url("https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif");
+  background-image: url("/playground_assets/rainbow-swirls.gif");
 }
 
 .home-card3 {
@@ -761,7 +761,7 @@
 }
 
 .home-card3:hover {
-  border-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif) 1 stretch;
+  border-image: url(/playground_assets/rainbow-swirls.gif) 1 stretch;
   background-color: rgba(0, 0, 0, 0.65);
 }
 
@@ -783,7 +783,7 @@
   font-family: Poppins;
   font-weight: 600;
   background-size: cover;
-  background-image: url("https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif");
+  background-image: url("/playground_assets/rainbow-swirls.gif");
 }
 
 .home-container18 {
@@ -806,7 +806,7 @@
   font-weight: 500;
   text-transform: uppercase;
   background-size: cover;
-  background-image: url("https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif");
+  background-image: url("/playground_assets/rainbow-swirls.gif");
 }
 
 .home-container19 {
@@ -825,7 +825,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url('https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI4fHxibGFja3xlbnwwfHx8fDE2NzQ1Mzg3OTM&ixlib=rb-4.0.3&w=1500');
+  background-image: url('/playground_assets/home/nightForest.jfif');
   background-attachment: fixed;
 }
 
@@ -890,12 +890,12 @@
   display: flex;
   z-index: 50;
   max-width: 1200px;
-  border-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif) 1 stretch;
+  border-image: url(/playground_assets/rainbow-swirls.gif) 1 stretch;
   border-width: 2px;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url('https://68.media.tumblr.com/33cb13a5b76a46a311b86dff7e35f9f6/tumblr_op88xic9qq1uco8m0o1_500.gif');
+  background-image: url('/playground_assets/home/moonlightSakura.gif');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -966,7 +966,7 @@
   width: auto;
   font-style: normal;
   background-size: cover;
-  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+  background-image: url('/playground_assets/rainbow-swirls.gif');
   background-attachment: fixed;
 }
 
@@ -1331,7 +1331,7 @@
 .home-heading10 {
   color: transparent;
   background-size: cover;
-  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+  background-image: url('/playground_assets/rainbow-swirls.gif');
 }
 
 .home-right {
@@ -1360,7 +1360,7 @@
   flex-direction: column;
   background-size: contain;
   justify-content: center;
-  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/d6552119730059.563339f76cc0b.gif');
+  background-image: url('/playground_assets/home/squarelight.gif');
   border-top-width: 1px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1425,7 +1425,7 @@
 }
 
 .home-container33:hover {
-  border-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif) 1 stretch;
+  border-image: url(/playground_assets/rainbow-swirls.gif) 1 stretch;
 }
 
 .home-text40 {
@@ -1436,7 +1436,7 @@
   text-align: center;
   font-weight: 600;
   background-size: cover;
-  background-image: url('https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif');
+  background-image: url('/playground_assets/rainbow-swirls.gif');
 }
 
 .home-section10 {
@@ -1447,7 +1447,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url('https://iili.io/H7kMrt1.gif');
+  background-image: url('/playground_assets/home/showreel.gif');
   background-repeat: no-repeat;
   background-position: center;
 }

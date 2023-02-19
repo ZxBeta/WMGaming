@@ -3,18 +3,15 @@ import ImageSlider from "./ImageSlider";
 const Slider = () => {
   const slides = [
     {
-      url:
-        "https://iili.io/HEpqnIt.jpg",
+      url: "/playground_assets/home/b1.jpg",
       title: "1"
     },
     {
-      url:
-        "https://iili.io/HEpqohX.jpg",
+      url: "/playground_assets/home/b2.jpg",
       title: "2"
     },
     {
-      url:
-        "https://iili.io/HEpqBpI.jpg",
+      url: "/playground_assets/home/b3.jpg",
       title: "3"
     }
   ];
