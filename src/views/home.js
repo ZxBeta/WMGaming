@@ -34,7 +34,7 @@ const Home = (props) => {
       <section className="home-slider FadeInUp">
         <div className="home-container01">
           {/* slider */}
-          <div className="slider_container"><Slider/></div>
+          <div className="slider_container"><Slider /></div>
           {/* slider */}
         </div>
       </section>
@@ -151,11 +151,6 @@ const Home = (props) => {
                     We have professional acumen in 2D and 3D designing that
                     makes us the most preferred name in the industry for
                     aesthetic and artistic characters and features designing.
-                    {/* <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    /> */}
                   </p>
                 </div>
               </div>
@@ -341,33 +336,36 @@ const Home = (props) => {
               </h2>
             </header>
             <main className="home-cards">
-              <CompanyCard rootClassName="company-card-root-class-name"></CompanyCard>
               <CompanyCard
-                image_src="https://iili.io/H7XirRs.png"
+                image_src="/playground_assets/home/CompanyCards/0.png"
+                rootClassName="company-card-root-class-name">
+              </CompanyCard>
+              <CompanyCard
+                image_src="/playground_assets/home/CompanyCards/1.png"
                 rootClassName="company-card-root-class-name1"
               ></CompanyCard>
               <CompanyCard
-                image_src="https://iili.io/H7Xi4OG.png"
+                image_src="/playground_assets/home/CompanyCards/2.png"
                 rootClassName="company-card-root-class-name2"
               ></CompanyCard>
               <CompanyCard
-                image_src="https://www.smartads.in/resources/assets/uploads/product_group/Magazine/Business_Connect_India.JPG"
+                image_src="/playground_assets/home/CompanyCards/3.jfif"
                 rootClassName="company-card-root-class-name3"
               ></CompanyCard>
               <CompanyCard
-                image_src="https://iili.io/H7Xiix4.png"
+                image_src="/playground_assets/home/CompanyCards/4.png"
                 rootClassName="company-card-root-class-name4"
               ></CompanyCard>
               <CompanyCard
-                image_src="https://iili.io/H7XisWl.png"
+                image_src="/playground_assets/home/CompanyCards/5.png"
                 rootClassName="company-card-root-class-name5"
               ></CompanyCard>
               <CompanyCard
-                image_src="https://iili.io/H7XiLs2.png"
+                image_src="/playground_assets/home/CompanyCards/6.png"
                 rootClassName="company-card-root-class-name6"
               ></CompanyCard>
               <CompanyCard
-                image_src="https://iili.io/H7XiZfS.jpg"
+                image_src="/playground_assets/home/CompanyCards/7.jpg"
                 rootClassName="company-card-root-class-name7"
               ></CompanyCard>
               <div className="home-container33">
