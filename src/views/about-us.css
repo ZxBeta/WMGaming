@@ -537,7 +537,8 @@
 .about-us-container25 {
   flex: 0 0 auto;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
+  height: auto;
   display: flex;
   padding: var(--dl-space-space-unit);
   max-width: 1600px;
@@ -565,6 +566,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .about-us-text08 {
@@ -662,6 +664,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .about-us-text13 {
@@ -1222,7 +1225,7 @@
 
   .about-us-container25 {
     gap: var(--dl-space-space-unit);
-    height: 100vh;
+    height: auto;
     flex-direction: column;
   }
 

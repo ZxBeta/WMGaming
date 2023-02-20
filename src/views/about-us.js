@@ -157,11 +157,6 @@ const AboutUs = (props) => {
                   development with expertise in Augmented Reality (AR), Virtual
                   Reality (VR), Unity, Blockchain, development frameworks,
                   UI/UX, NFT, Metaverse, etc.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
                 </span>
               </div>
               <div className="about-us-container22">
@@ -212,7 +207,7 @@ const AboutUs = (props) => {
                     For employees, we are establishing WebMobril Gaming Studioz
                     as an ideal workplace by promoting a clear and transparent
                     process for decision-making and conducting workshops to
-                    upgrade to support their skill developmen
+                    upgrade to support their skill development
                   </span>
                 </span>
               </div>

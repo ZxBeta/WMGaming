@@ -32,7 +32,7 @@
 .virtural-game-container03 {
   flex: 0 0 auto;
   width: 100%;
-  height: 200vh;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -52,6 +52,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 5%;
 }
 .virtural-game-container05 {
   flex: 0 0 auto;
