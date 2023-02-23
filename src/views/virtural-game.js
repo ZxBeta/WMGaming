@@ -240,7 +240,7 @@ const VirturalGame = (props) => {
                               forward to transform it into life. We are always
                               open to discussing your gameplay mechanics and
                               stories and suggesting the best strategies to make
-                              it work.
+                              it work. You say we do.
                             </span>
                           </div>
                           <div className="virtural-game-container38">

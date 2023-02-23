@@ -356,7 +356,7 @@
 .virtural-game-container22 {
   flex: 0 0 auto;
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   border-color: var(--dl-color-colors-neongreen);
@@ -490,7 +490,7 @@
 .virtural-game-container30 {
   flex: 0 0 auto;
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;

@@ -1081,12 +1081,17 @@
 }
 
 @media(max-width: 1400px) {
+  .about-us-container05{
+    justify-content: flex-start;
+  }
   .about-us-text {
-    text-align: center;
+    text-align: left;
+    font-size: 50px;
   }
 
   .about-us-text01 {
-    text-align: center;
+    text-align: left;
+    font-size: 22px;
   }
 
   .about-us-container08 {
